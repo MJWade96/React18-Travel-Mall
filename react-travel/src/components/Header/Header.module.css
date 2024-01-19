@@ -1,0 +1,73 @@
+.app-header {
+    background-color: white !important;
+  }
+  
+  .top-header {
+    display: block;
+    height: .4rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    line-height: .4rem;
+    background-color: #f5f5f5;
+  }
+  
+  .language-selector {
+    margin-left: .15rem;
+    display: inline;
+  }
+  
+  .button-group {
+    float: right;
+    margin-top: .05rem;
+  }
+  
+  .main-header {
+    background-color: white !important;
+    height: .6rem;
+    line-height: .6rem;
+    width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .App-logo {
+    height: .6rem;
+    line-height: .6rem;
+    float: left;
+  }
+  
+  .title {
+    display: inline;
+    line-height: .64rem !important;
+    color: #03A9F4 !important;
+  }
+  
+  .search-input {
+    line-height: .64rem;
+    margin-top: .17rem;
+    margin-left: .37rem;
+    width: 4rem !important;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .main-menu {
+    padding-left: 6% !important;
+    padding-right: 6% !important;
+    background-color: #1976D2 !important;
+    color: #f5f5f5 !important;
+  }
